@@ -12,10 +12,11 @@ mkdir -p /data/web_static/shared/
 # Fake HTML file
 echo "
 <html>
-<head>
-<title></title>
-</head>
-<body> Hello Nginx Configured </body>
+    <head>
+    </head>
+    <body>
+        Holberton School
+    </body>
 </html>
 " > /data/web_static/releases/test/index.html
 
